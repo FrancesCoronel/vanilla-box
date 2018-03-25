@@ -129,7 +129,6 @@ I created an [API key](https://console.cloud.google.com/apis/credentials) and [C
 * [Google Custom Search](https://cse.google.com)
 * [IconFinder](https://www.iconfinder.com)
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-* [PWA Builder](https://www.pwabuilder.com/)
 * [Shields.io](http://shields.io/)
 * [Sketch](https://www.sketchapp.com/)
 
@@ -176,8 +175,6 @@ I tested the website on all major browsers.
 ### Lighthouse
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source, automated tool created by Google for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, and more.
-
-I made Vanilla Box a [Progressive Web App (PWA)](https://developers.google.com/web/progressive-web-apps/) since it's a topic I'm passionate about.
 
 When I ran Lighthouse on Vanilla Box, the following results were:
 
