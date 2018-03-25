@@ -1,36 +1,42 @@
 # vanilla-box
 
-[![GitHub Issues](https://img.shields.io/github/issues/fvcproductions/vanilla-box.svg?style=flat-square)](https://github.com/fvcproductions/vanilla-box/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/fvcproductions/vanilla-box.svg?style=flat-square)](https://github.com/fvcproductions/vanilla-box/pulls) [![MIT License](https://img.shields.io/github/license/fvcproductions/vanilla-box.svg?style=flat-square)](http://badges.mit-license.org) [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square)](http://paypal.me/fvcproductions) [![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg?style=flat-square)](https://www.patreon.com/fvcproductions)
+<!-- [![GitHub Issues](https://img.shields.io/github/issues/fvcproductions/vanilla-box.svg?style=flat-square)](https://github.com/fvcproductions/vanilla-box/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/fvcproductions/vanilla-box.svg?style=flat-square)](https://github.com/fvcproductions/vanilla-box/pulls) [![MIT License](https://img.shields.io/github/license/fvcproductions/vanilla-box.svg?style=flat-square)](http://badges.mit-license.org) [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square)](http://paypal.me/fvcproductions) [![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg?style=flat-square)](https://www.patreon.com/fvcproductions) -->
 
-Photo lightbox gallery created with just vanilla JS. 📷
+A sweet image lightbox gallery created with just vanilla 🍦 JS.
 
-> View this project at [`fvcproductions.github.io/readme`](https://fvcproductions.github.io/readme)
+![Teaser Image](https://i.imgur.com/bUod3KL.png)
+
+> View this project at [`fvcproductions.github.io/vanilla-box`](https://fvcproductions.github.io/vanilla-box)
 
 ---
 
 <!-- TOC depthFrom:2 -->
 
-* [Overview](#overview)
-  * [Requirements](#requirements)
+* [Requirements](#requirements)
   * [Evaluation](#evaluation)
   * [Criteria](#criteria)
   * [Submission](#submission)
-* [Installation](#installation)
+* [Overview](#overview)
+  * [Branding](#branding)
+  * [Custom Search Engine](#custom-search-engine)
+  * [Google Custom Search API](#google-custom-search-api)
+  * [Tools Used](#tools-used)
 * [Testing](#testing)
+  * [Browser Support](#browser-support)
+    * [Chrome](#chrome)
+    * [Firefox](#firefox)
+    * [Internet Explorer](#internet-explorer)
+    * [Safari](#safari)
+  * [Lighthouse](#lighthouse)
 * [Deployment](#deployment)
-* [Tools](#tools)
 * [Contributing](#contributing)
 * [Code of Conduct](#code-of-conduct)
-* [Credits](#credits)
-* [References](#references)
-  * [Best](#best)
-  * [Other](#other)
 
 <!-- /TOC -->
 
-## Overview
+## Requirements
 
-### Requirements
+> Taken from the email I received.
 
 This exercise is meant to demonstrate your ability to:
 
@@ -79,32 +85,89 @@ When you’re finished, please send us:
 * If you have any notes or instructions about the exercise, please include them in a README.md file in your repo.
 * We have implemented discretionary measures to ensure personal information is not associated with coding exercises. This enables the grader to make unbiased decisions, so we ask that you do not include your name anywhere in the code or documentation.
 
-## Installation
+## Overview
 
-```bash
-yarn init
-yarn add react react-dom
-```
+### Branding
+
+I created the logo for "Vanilla Box" using [Sketch](https://www.sketchapp.com/).
+
+The Sketch file used can be found [here]().
+
+I used [IconFinder](https://www.iconfinder.com/icons/1517207/colorful_dessert_food_ice_cream_icon#size=512) to start off.
+
+The colors used to create the vanilla ice cream logo are the same as [Slack's brand colors](https://brandcolors.net/b/slack).
+
+![Logo](https://i.imgur.com/sGT98Z4.png)
+
+### Custom Search Engine
+
+The Custom Search Engine (CSE) public URL for this project can be found [here](https://cse.google.com/cse/publicurl?cx=008213476470887739041:kbgbn6nopny).
+
+The Custom Search Engine (CSE) was configured using the following settings:
+
+![Custom Search Engine](https://i.imgur.com/iTzUj8f.png)
+
+### Google Custom Search API
+
+I am fetching the images from the [Google Custom Search API](https://developers.google.com/custom-search/json-api/v1/overview).
+
+I limited the API to fetching 9 images since the max is 10 at one time and the layout has 3 columns.
+
+I created an [API key](https://console.cloud.google.com/apis/credentials) and [Custom Search Engine (CSE) id](https://cse.google.com) in order for the API to work.
+
+### Tools Used
+
+* [BrandColors](https://brandcolors.net)
+* [CodeKit](https://codekitapp.com/)
+* [Favicon Generator](https://realfavicongene)
+* [GitHub Pages](https://pages.github.com)
+* [GitHub](https://github.com)
+* [Google Analytics](https://analytics.google.com)
+* [Google Cloud Platform](https://console.cloud.google.com)
+* [Google Custom Search](https://cse.google.com)
+* [IconFinder](https://www.iconfinder.com)
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+* [PWA Builder](https://www.pwabuilder.com/)
+* [Shields.io](http://shields.io/)
+* [Sketch](https://www.sketchapp.com/)
 
 ## Testing
 
-```bash
-yarn test
-```
+### Browser Support
+
+I tested the website on all major browsers.
+
+#### Chrome
+
+#### Firefox
+
+#### Internet Explorer
+
+#### Safari
+
+> Version 11.0.3 (13604.5.6)
+
+![Safari](https://i.imgur.com/ULKrE84.png)
+
+### Lighthouse
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source, automated tool created by Google for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, and more.
+
+I made Vanilla Box a [Progressive Web App (PWA)](https://developers.google.com/web/progressive-web-apps/) since it's a topic I'm passionate about.
+
+When I ran Lighthouse on Vanilla Box, the following results were:
 
 ## Deployment
 
-```bash
-yarn deploy
-```
+The source code is on GitHub in a [private repo](https://github.com/fvcproductions/vanilla-box).
 
-## Tools
+I used [CodeKit](https://codekitapp.com/) to compile the SASS files to CSS with minification and to check the JS syntax with ESLint and transpile the JS with Babel. I also set it up so all files were minified and all images were optimized.
 
-* [GitHub Pages](https://pages.github.com)
-* [Google Analytics](https://analytics.google.com)
-* [Shields.io](http://shields.io/)
+The website is deployed using [GitHub Pages](https://pages.github.com).
 
 ## Contributing
+
+> Heads up, I think it's important to have a "Contributing" section for any project but this is a private repo.
 
 > To get started...
 
@@ -118,41 +181,8 @@ Or just [create an issue](https://github.com/fvcproductions/vanilla-box/issues) 
 
 ## Code of Conduct
 
+> Heads up, similar to the "Contributing" section of this README, I think it's important to have a "Code of Conduct" for any project but this is a private repo.
+
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 More details can be found at this project's [code of conduct](.github/CODE_OF_CONDUCT.md).
-
-## Credits
-
-* [FVCproductions](https://github.com/fvcproductions) 🍓🍫
-
-## References
-
-I would recommend reaching out to these folks since their code is still publicly available for anyone to see.
-
-### Best
-
-* [lydiat/javascript-lightbox](https://github.com/lydiat/javascript-lightbox)
-* [maryrdo.com](http://maryrdo.com/)
-
-### Other
-
-* [augurone/flickrviewr](https://github.com/augurone/flickrviewr)
-* [BlakeTurner/slack-lightbox](https://github.com/BlakeTurner/slack-lightbox)
-* [cattron313/cattron313.github.io](https://github.com/cattron313/cattron313.github.io)
-* [celineotter/flickr-lightbox-gallery](https://github.com/celineotter/flickr-lightbox-gallery)
-* [devonkoch/lightboxJS](https://github.com/devonkoch/lightboxJS)
-  * [slackrbox.herokuapp.com](https://slackrbox.herokuapp.com/?#)
-* [dmleong/slack-lightbox](https://github.com/dmleong/slack-lightbox)
-* [dvidsilva/code_sample](https://github.com/dvidsilva/code_sample)
-* [hperrin/imagesearchwall](https://github.com/hperrin/imagesearchwall)
-* [jiggy1com/slack-exercise](https://github.com/jiggy1com/slack-exercise)
-* [johnniewilcox/api_lightbox](https://github.com/johnniewilcox/api_lightbox)
-* [jondaiello/photo-retriever](https://github.com/jondaiello/photo-retriever)
-* [jozecuervo/photo-collection-viewer](https://github.com/jozecuervo/photo-collection-viewer)
-* [lelandlee/Slack_Coding_Challenge](https://github.com/lelandlee/Slack_Coding_Challenge)
-* [mrfinks/slackieSearch](https://github.com/mrfinks/slackieSearch)
-* [notthatnic/slack-lightbox-defunct](https://github.com/notthatnic/slack-lightbox-defunct)
-* [notthatnic/slack-lightbox-refactor](https://github.com/notthatnic/slack-lightbox-refactor)
-* [rahulbir/photogallery](https://github.com/rahulbir/photogallery)
-* [tylerstalder/lightboxen](https://github.com/tylerstalder/lightboxen)
