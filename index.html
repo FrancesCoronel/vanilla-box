@@ -70,18 +70,6 @@
   </div>
   <!-- JS -->
   <script src="assets/js/app.min.js"></script>
-  <!-- Service Worker -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('sw.js').then(function (registration) {
-          console.log('🍦 ServiceWorker registration successful with scope: ', registration.scope);
-        }, function (err) {
-          console.log('😥️ ServiceWorker registration failed: ', err);
-        });
-      });
-    }
-  </script>
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63190978-8"></script>
   <script>
