@@ -31,6 +31,7 @@ A sweet image lightbox gallery created with just vanilla 🍦 JS.
     * [Opera](#opera)
     * [Safari](#safari)
   * [Lighthouse](#lighthouse)
+  * [Mobile-Friendly Test](#mobile-friendly-test)
 * [Deployment](#deployment)
 * [Contributing](#contributing)
 * [Code of Conduct](#code-of-conduct)
@@ -118,6 +119,8 @@ I limited the API to fetching 9 images since the max is 10 at one time and the l
 
 I created an [API key](https://console.cloud.google.com/apis/credentials) and [Custom Search Engine (CSE) id](https://cse.google.com) in order for the API to work.
 
+Please note that the API limits calls to 100 per day on the free plan even with billing enabled.
+
 ### Tools Used
 
 * [BrandColors](https://brandcolors.net)
@@ -178,7 +181,25 @@ I tested the website on all major browsers.
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source, automated tool created by Google for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, and more.
 
-When I ran Lighthouse on Vanilla Box, the following results were:
+When I ran Lighthouse on Vanilla Box, the following results were positive for performance, SEO and accessibility.
+
+The PWA (Progressive Web App) score was low since that wasn't a metric for the project and would have required more configuration (adding a manifest and service worker).
+
+The key issue was "Mixed Content" since the page is served over HTTPS but requests an insecure image from the Google API.
+
+![Lighthouse 1](https://i.imgur.com/QAYHJer.jpg)
+
+![Lighthouse 2](https://i.imgur.com/g7vZUq9.jpg)
+
+![Lighthouse 3](https://i.imgur.com/zGJGMnu.jpg)
+
+### Mobile-Friendly Test
+
+Google has a test where to check if a webpage is mobile-friendly.
+
+You can view the results online [here](https://search.google.com/test/mobile-friendly?id=icDyCbzkBZo_w3cxuCxqvQ).
+
+![Mobile-Friendly Test](https://i.imgur.com/VM3a9pr.png)
 
 ## Deployment
 
