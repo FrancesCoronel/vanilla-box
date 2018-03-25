@@ -26,6 +26,7 @@ A sweet image lightbox gallery created with just vanilla 🍦 JS.
     * [Chrome](#chrome)
     * [Firefox](#firefox)
     * [Internet Explorer](#internet-explorer)
+    * [Opera](#opera)
     * [Safari](#safari)
   * [Lighthouse](#lighthouse)
 * [Deployment](#deployment)
@@ -118,6 +119,7 @@ I created an [API key](https://console.cloud.google.com/apis/credentials) and [C
 ### Tools Used
 
 * [BrandColors](https://brandcolors.net)
+* [Browserling](https://www.browserling.com/)
 * [CodeKit](https://codekitapp.com/)
 * [Favicon Generator](https://realfavicongene)
 * [GitHub Pages](https://pages.github.com)
@@ -139,9 +141,31 @@ I tested the website on all major browsers.
 
 #### Chrome
 
+> Version 65.0.3325.181 (Official Build) (64-bit)
+
+![Chrome](https://i.imgur.com/VUcFvOV.png)
+
 #### Firefox
 
+![Firefox](https://i.imgur.com/KHErgPG.png)
+
 #### Internet Explorer
+
+[Browserling](https://www.browserling.com/) was used for this browser since I only own a MacBook Pro.
+
+> Windows Vista - Internet Explorer 9
+
+![IE 9](https://i.imgur.com/xWTLyBP.png)
+
+> Windows 7 - Internet Explorer 11
+
+![IE 11](https://i.imgur.com/ZuDXgc5.png)
+
+#### Opera
+
+> Version 52.0.2871.30
+
+![Opera](https://i.imgur.com/ly1NqB3.png)
 
 #### Safari
 
