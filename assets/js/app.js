@@ -80,7 +80,7 @@ const googleCustomSearchAPI = {
  */
 const googleCustomSearchAPIConfig = {
   // the custom search engine ID to use for this request
-  cx: "013872130897346659415:yae-br_hnby",
+  cx: "008213476470887739041:kbgbn6nopny",
   // returns black and white, grayscale, or color images
   imgColorType: "color",
   // returns images of a specified size.
