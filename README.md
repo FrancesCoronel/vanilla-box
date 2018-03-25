@@ -4,7 +4,9 @@
 
 A sweet image lightbox gallery created with just vanilla 🍦 JS.
 
-![Teaser Image](https://i.imgur.com/bUod3KL.png)
+![Thumbnail Image Gallery](https://i.imgur.com/BgO4C07.png)
+
+![Lightbox View](https://i.imgur.com/wy7lUEV.png)
 
 > View this project at [`fvcproductions.github.io/vanilla-box`](https://fvcproductions.github.io/vanilla-box)
 
