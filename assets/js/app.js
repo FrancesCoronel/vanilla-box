@@ -83,7 +83,7 @@ const googleCustomSearchAPIConfig = {
   cx: "008213476470887739041:kbgbn6nopny",
   // returns black and white, grayscale, or color images
   imgColorType: "color",
-  // returns images of a specified size.
+  // returns images of a specified size
   imgSize: "xlarge",
   // the search expression
   q: "vanilla+ice+cream",
