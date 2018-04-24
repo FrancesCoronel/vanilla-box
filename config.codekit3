@@ -7,7 +7,7 @@
 		"uuidString": "C286A6FC-0EE3-4062-9ABF-EBDE14CEF0D6"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.github\/CODE_OF_CONDUCT.md": {
 		"cB": 0,
@@ -354,7 +354,8 @@
 	"creationDate": 543634198,
 	"displayValue": "vanilla-box",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ron"
+	"iconImageName": "\/assets\/img\/favicons\/apple-touch-icon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2157,6 +2158,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

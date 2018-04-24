@@ -142,7 +142,9 @@ const hideLoader = targetElement => {
  * Fetches images using API url and then calls initialization methods
  */
 const fetchAllImages = () => {
+  // To send an HTTP request, create an XMLHttpRequest object, open a URL, and send the request.
   const xhr = new XMLHttpRequest();
+  // An EventHandler that is called whenever the readyState attribute changes. The callback is called from the user interface thread. The XMLHttpRequest.onreadystatechange property contains the event handler to be called when the readystatechange event is fired, that is every time the readyState property of the XMLHttpRequest changes.
   xhr.onreadystatechange = e => {
     if (xhr.readyState === 4 && xhr.status === 200) {
       let response = JSON.parse(xhr.responseText);
@@ -182,8 +184,12 @@ const loadThumbnail = id => {
 const loadThumbnailImage = (image, id) => {
   const thumbnail = document.querySelector(`.thumbnail[data-id="${id}"]`);
   showLoader(thumbnail);
+  // The Image() constructor creates a new HTMLImageElement instance.
+  // It is functionally equivalent to document.createElement('img').
   let imageContainer = new Image();
+  // The onload property of the GlobalEventHandlers mixin is an event handler for the load event of a Window, XMLHttpRequest, <img> element, etc., which fires when the resource has loaded.
   imageContainer.onload = () => {
+    // The Node.appendChild() method adds a node to the end of the list of children of a specified parent node.
     thumbnail.appendChild(imageContainer);
     hideLoader(thumbnail);
   };
